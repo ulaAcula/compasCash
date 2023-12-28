@@ -36,12 +36,15 @@ const Account = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:4034/getPlan", {
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: Token,
-          },
-        });
+        const response = await axios.get(
+          "https://compass-server.onrender.com/getPlan",
+          {
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: Token,
+            },
+          }
+        );
 
         dispatch(
           SaveNewArray([...response.data[0].data, { EachSatate: false }])
@@ -63,7 +66,7 @@ const Account = () => {
       const fetchData = async () => {
         const options = {
           method: "GET",
-          url: `http://localhost:4034/getAccountBy/${id}`,
+          url: `https://compass-server.onrender.com/getAccountBy/${id}`,
           headers: {
             "Content-Type": "application/json",
             Authorization: Token,
@@ -86,12 +89,15 @@ const Account = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:4034/getPlan", {
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: Token,
-          },
-        });
+        const response = await axios.get(
+          "https://compass-server.onrender.com/getPlan",
+          {
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: Token,
+            },
+          }
+        );
         setIdPlan(response.data[0]._id);
       } catch (error) {
         console.error(error);
@@ -157,7 +163,7 @@ const Account = () => {
       const createExpenses = async () => {
         const options = {
           method: "POST",
-          url: "http://localhost:4034/create/Expenses",
+          url: "https://compass-server.onrender.com/create/Expenses",
           headers: {
             "Content-Type": "application/json",
             Authorization: Token,
@@ -207,7 +213,7 @@ const Account = () => {
       const CreateIncome = async () => {
         const options = {
           method: "POST",
-          url: "http://localhost:4034/create/Income",
+          url: "https://compass-server.onrender.com/create/Income",
           headers: {
             "Content-Type": "application/json",
             Authorization: Token,
@@ -257,7 +263,7 @@ const Account = () => {
     if (idPlan) {
       if (neWdata) {
         const updatePlan = async () => {
-          const url = `http://localhost:4034/editPlan/${idPlan}`;
+          const url = `https://compass-server.onrender.com/editPlan/${idPlan}`;
 
           const headers = {
             "Content-Type": "application/json",
@@ -291,7 +297,7 @@ const Account = () => {
       try {
         const options = {
           method: "GET",
-          url: `http://localhost:4034/getIncomeAndExpenses/${data.categoryName}`,
+          url: `https://compass-server.onrender.com/getIncomeAndExpenses/${data.categoryName}`,
 
           headers: {
             "Content-Type": "application/json",
@@ -324,7 +330,9 @@ const Account = () => {
     const Expense = `Expensedelate`;
     const options = {
       method: "DELETE",
-      url: `http://localhost:4034/${Type ? Income : Expense}/${id}`,
+      url: `https://compass-server.onrender.com/${
+        Type ? Income : Expense
+      }/${id}`,
       headers: {
         "Content-Type": "application/json",
         Authorization: Token,

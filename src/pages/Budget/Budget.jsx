@@ -45,12 +45,15 @@ const Budget = () => {
 
   const fetchData = async (Switch) => {
     try {
-      const response = await axios.get("http://localhost:4034/getPlan", {
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: Token,
-        },
-      });
+      const response = await axios.get(
+        "https://compass-server.onrender.com/getPlan",
+        {
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: Token,
+          },
+        }
+      );
       if (Switch) {
         dispatch(
           SaveNewArray([...response.data[0].data, { EachSatate: false }])
@@ -64,7 +67,7 @@ const Budget = () => {
 
       try {
         const postResponse = await axios.post(
-          "http://localhost:4034/createPlan",
+          "https://compass-server.onrender.com/createPlan",
           {
             plan: [
               {
@@ -201,7 +204,7 @@ const Budget = () => {
     const neWdata = data.slice(0, -1);
 
     const updatePlan = async () => {
-      const url = `http://localhost:4034/editPlan/${idPlan}`;
+      const url = `https://compass-server.onrender.com/editPlan/${idPlan}`;
 
       const headers = {
         "Content-Type": "application/json",

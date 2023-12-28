@@ -35,10 +35,13 @@ const LoginPage = () => {
 
     const loginUser = async (email, password) => {
       try {
-        const response = await axios.post("http://localhost:4034/login", {
-          email: email,
-          password: password,
-        });
+        const response = await axios.post(
+          "https://compass-server.onrender.com/login",
+          {
+            email: email,
+            password: password,
+          }
+        );
         navigate("/");
         localStorage.setItem("token", JSON.stringify(response.data));
         localStorage.setItem(

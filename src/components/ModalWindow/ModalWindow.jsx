@@ -43,7 +43,7 @@ const ModalWindow = ({
     const editAccount = async () => {
       const options = {
         method: "PUT",
-        url: `http://localhost:4034/editAccount/${values.id}`,
+        url: `https://compass-server.onrender.com/editAccount/${values.id}`,
         headers: {
           "Content-Type": "application/json",
           Authorization: Token,

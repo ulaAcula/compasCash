@@ -29,13 +29,16 @@ const RegistrationForm = () => {
 
     const registerUser = async (userData) => {
       try {
-        const response = await fetch("http://localhost:4034/register", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(userData),
-        });
+        const response = await fetch(
+          "https://compass-server.onrender.com/register",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(userData),
+          }
+        );
 
         if (response.ok) {
           const responseData = await response.json();

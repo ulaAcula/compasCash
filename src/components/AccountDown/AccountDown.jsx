@@ -99,7 +99,7 @@ const AccountDown = ({ downclose }) => {
   useEffect(() => {
     const getAccount = {
       method: "GET",
-      url: "http://localhost:4034/getAccount",
+      url: "https://compass-server.onrender.com/getAccount",
       headers: {
         "Content-Type": "application/json",
         Authorization: Token,
@@ -114,10 +114,13 @@ const AccountDown = ({ downclose }) => {
         } catch (error) {
           console.error(error);
           try {
-            const response = await axios.post("http://localhost:4034/login", {
-              email: PasswordLogin.login,
-              password: PasswordLogin.password,
-            });
+            const response = await axios.post(
+              "https://compass-server.onrender.com/login",
+              {
+                email: PasswordLogin.login,
+                password: PasswordLogin.password,
+              }
+            );
 
             console.log(response.data.token);
             setToken(response.data.token);
@@ -236,7 +239,7 @@ const AccountDown = ({ downclose }) => {
     const deleteAccount = async () => {
       const DelateAccountOptions = {
         method: "DELETE",
-        url: `http://localhost:4034/deleteAccount/${EditAcc.id}`,
+        url: `https://compass-server.onrender.com/deleteAccount/${EditAcc.id}`,
         headers: {
           "Content-Type": "application/json",
           Authorization: Token,
@@ -282,7 +285,7 @@ const AccountDown = ({ downclose }) => {
   const submitData = () => {
     const createAccount = {
       method: "POST",
-      url: "http://localhost:4034/create/Account",
+      url: "https://compass-server.onrender.com/create/Account",
       headers: {
         "Content-Type": "application/json",
         Authorization: Token,
