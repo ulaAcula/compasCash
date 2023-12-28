@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import clsx from "clsx";
 import s from "./PreHeaderSetting.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ButtonAdaptive, Line, ConfirmModal } from "../index";
+import { ButtonAdaptive, Line, ConfirmModal, MiniModal } from "../index";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
 import { SaveArrayBack } from "../../store/AssignedSlice";
