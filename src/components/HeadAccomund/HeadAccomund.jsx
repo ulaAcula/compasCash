@@ -58,7 +58,7 @@ const HeadAccomund = ({
           </div>
         </div>
         <div className={s.ButtonContainer}>
-          <ButtonAdaptive buttonType="cancel">
+          {/* <ButtonAdaptive buttonType="cancel">
             <FontAwesomeIcon
               icon={"pen"}
               style={{
@@ -66,7 +66,7 @@ const HeadAccomund = ({
               }}
               size={"1x"}
             />
-          </ButtonAdaptive>
+          </ButtonAdaptive> */}
         </div>
       </div>
       <Line type="gray05" />
