@@ -390,8 +390,8 @@ const Account = () => {
                 style={{
                   position: "absolute",
                   left: position
-                    ? `${Xcordinate - 415}px`
-                    : `${Xcordinate - 175}px`,
+                    ? `${Xcordinate - 105}px`
+                    : `${Xcordinate - 85}px`,
                 }}
               />
             </CellOfExIn>
