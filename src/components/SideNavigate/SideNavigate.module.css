@@ -1,0 +1,124 @@
+.sidebar {
+  transition: width 0.3s;
+  background-color: #2c396a;
+  color: white;
+  /* max-height: 100vh; */
+  width: 315px;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* position: fixed; */
+  overflow-y: auto;
+  flex: none;
+}
+
+.collapsed {
+  width: 75px;
+  overflow: hidden;
+  display: flex;
+}
+
+.navigationMeny {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.ShouldPad {
+  height: 100vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.navigationLI {
+  width: 280px;
+}
+.navigationLIClose {
+  width: min-content;
+}
+.buttonStyle {
+  display: flex;
+  justify-content: end;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  background-color: #2c396a;
+}
+.alightCollapsed {
+  align-items: center;
+  width: min-content;
+  display: flex;
+  overflow: visible;
+}
+.menuSettings {
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  overflow: hidden;
+  width: auto;
+  top: 95px;
+  left: 80px;
+  z-index: 3;
+  min-width: none;
+  max-width: none;
+}
+
+/* .menuSettingsCollap {
+  background-color: white;
+  position: absolute;
+  width: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  top: 50px;
+  left: 5px;
+} */
+
+.settingsMenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: white;
+  width: 228px;
+  padding: 7px 0px;
+  font-size: 16px;
+}
+
+.settingsName {
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 0.4375rem 0.5rem 0.5rem 1rem;
+  margin: 0;
+  color: gray;
+  list-style: none;
+  position: relative;
+  text-align: left;
+}
+.ShouldPad::-webkit-scrollbar {
+  width: 0px;
+  transition: width 0.3s;
+}
+
+.ShouldPad:hover::-webkit-scrollbar {
+  width: 5px;
+}
+
+.ShouldPad::-webkit-scrollbar-track {
+  background-color: #2c396a;
+}
+
+.ShouldPad::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 114, 114);
+  border-radius: 6px;
+}
+
+.ShouldPad::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}

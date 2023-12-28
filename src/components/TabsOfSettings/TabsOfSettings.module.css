@@ -1,0 +1,18 @@
+.yanabButton {
+  padding: 10px 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  border: none;
+  color: rgb(179, 179, 179);
+}
+.yanabButton:hover {
+  background-color: #edf1f5;
+}
+.colorCategory {
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}

@@ -1,0 +1,37 @@
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 30px;
+}
+
+input[type="checkbox"] + label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 13px;
+  height: 13px;
+  border: 2px solid #2196f3;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background-color: #3b5eda;
+
+  border: 2px solid #3b5eda;
+  content: "✔";
+  color: #fff;
+}
+.notAlight {
+  margin-bottom: 25px;
+}

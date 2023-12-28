@@ -1,0 +1,128 @@
+.PlanAll {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: fit-content;
+  position: relative;
+}
+.PlanCategoryHead {
+  display: flex;
+  height: 2.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+  /* position: relative; */
+  transition: height 0.15s ease-out;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 0px 25px;
+  gap: 30px;
+}
+
+.categoryName {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+}
+.overspendRate {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.ForPreloader {
+  width: 100%;
+}
+.InfoOfOverSpend {
+  display: flex;
+  gap: 5px;
+}
+.ActivityAvaible {
+  display: flex;
+  gap: 20px;
+}
+.amounts {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  font-size: 14px;
+  align-items: center;
+}
+.checked {
+  background-color: #d5defd;
+}
+
+.iconManager {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.InputContainer {
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  height: 1.5rem;
+  text-align: right;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000;
+  text-align: center;
+  max-width: 120px;
+  padding-left: 8px;
+  min-width: 80px;
+  /* width: 100%; */
+  margin-top: 5px;
+}
+.hoverNone {
+  opacity: 0;
+  margin-top: 5px;
+  transition: opacity 0.2s ease;
+}
+.PlanCategoryHead:hover .hoverNone {
+  opacity: 1;
+}
+.comonSize {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.0375rem;
+  color: #405163;
+  text-align: start;
+  text-align: center;
+}
+.NeedMargin {
+  margin-top: 10px;
+}
+
+.needPadd {
+  padding: 0px 0px 0 25px;
+}
+.arrowDown {
+  cursor: pointer;
+}
+.equal {
+  width: 100px;
+  text-align: center;
+}
+
+.amounts {
+  width: 50%;
+}
+.comonSizePadd {
+  padding-right: 25px;
+}
+.relativePlas {
+  position: relative;
+}
+.positionModal {
+  position: absolute;
+  z-index: 100;
+  left: -82px;
+  top: 35px;
+}
+.bgSubmain {
+  background-color: #edf1f5;
+}

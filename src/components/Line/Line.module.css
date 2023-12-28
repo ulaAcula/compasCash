@@ -1,0 +1,25 @@
+.lineGray {
+  height: 1px;
+  width: 100%;
+  opacity: 0.5;
+  background-color: rgb(179, 179, 179);
+}
+.lineGray05 {
+  height: 0.5px;
+  width: 100%;
+  opacity: 0.5;
+  background-color: rgb(179, 179, 179);
+}
+.lineGrayMargin {
+  height: 1px;
+  width: 100%;
+  opacity: 0.5;
+  background-color: rgb(179, 179, 179);
+  margin: 1.5rem auto;
+}
+.LineBlack {
+  height: 1px;
+  width: 100%;
+  opacity: 0.5;
+  background-color: black;
+}

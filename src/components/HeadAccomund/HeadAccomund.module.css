@@ -1,0 +1,44 @@
+.HeaderDinamic {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.mainHead {
+  color: #19223c;
+  margin: 0;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.infoAbout {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.iconInfo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.spanInfo {
+  color: #405163;
+  font-size: 12px;
+}
+.canculation {
+  display: flex;
+  gap: 20px;
+  padding: 1rem;
+}
+.symbol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #405163;
+  flex: 0 0 auto;
+  font-size: 1.325rem;
+  font-style: normal;
+  padding: 0 1rem;
+}
+.ButtonContainer {
+  width: 30%;
+}

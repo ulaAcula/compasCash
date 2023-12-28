@@ -1,0 +1,25 @@
+.dropdown {
+  width: 100%;
+  border: #ccd0d5 solid 1px;
+  padding: 8px;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.dropdown:focus,
+.dropdown:active {
+  border: 2px solid #3b5eda;
+  outline: none;
+}
+.dropdownDiv {
+  position: relative;
+}
+.arrowLeft {
+  position: absolute;
+  right: -5px;
+  top: 8px;
+}
+.zindex {
+  z-index: -1;
+}

@@ -1,0 +1,155 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.185);
+  z-index: 2;
+}
+
+.modalWind {
+  background-color: white;
+  color: black;
+
+  border-radius: 8px;
+  padding: 20px 0px;
+  box-shadow: 0 16px 64px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  height: 608px;
+  width: 360px;
+}
+
+.buttonBack,
+.buttonClose {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 25px;
+}
+
+.buttonBack:hover,
+.buttonClose:hover {
+  opacity: 0.5;
+}
+
+.HeaderModal {
+  text-align: center;
+}
+.buttonBack {
+  position: absolute;
+  top: 6.5px;
+  left: -9px;
+}
+.buttonClose {
+  position: absolute;
+  top: 6.5px;
+  right: -9px;
+}
+.headerCenter {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 28px;
+  padding: 2px 30px;
+  margin-top: 13px;
+}
+.divider {
+  display: flex;
+  height: 500px;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 24px;
+  overflow: scroll;
+}
+.modalWindEdit {
+  width: 30rem;
+  background-color: #fff;
+
+  pointer-events: auto;
+  border-radius: 0.4rem;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 16px 64px rgba(0, 0, 0, 0.2);
+  transition: transform 150ms ease, opacity 100ms ease;
+  animation-fill-mode: forwards;
+}
+.color {
+  color: black;
+}
+.HeaderModalEdit {
+}
+.headerCenterEdit {
+  font-size: 18px;
+  color: black;
+  flex-grow: 1;
+  line-height: 1.5;
+  margin: 0;
+}
+.buttonCloseEdit {
+}
+.dividerEdit {
+  overflow: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.topModalEdit {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.AccountInformation {
+  font-size: 16px;
+  margin-bottom: 0.3rem;
+  padding-bottom: 0.25rem;
+  margin-top: 0;
+  min-height: 1.5em;
+  text-align: left;
+  width: 100%;
+}
+.AccountNickname {
+  margin: 0;
+  font-size: 14px;
+  min-height: 1.5em;
+  text-align: left;
+  width: 100%;
+  padding-top: 0;
+}
+.InputS {
+  width: 96%;
+  margin-bottom: 1rem;
+}
+.InputT {
+  width: 96%;
+  margin-bottom: 1rem;
+
+  resize: vertical;
+}
+.InputInvisible {
+  width: 96%;
+}
+.paragraphBottom {
+  color: #405163;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  text-align: left;
+}
+.dividerEditBottom {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  align-items: center;
+  height: fit-content;
+}
+.dividerBottom {
+  display: flex;
+  gap: 0.5em;
+}

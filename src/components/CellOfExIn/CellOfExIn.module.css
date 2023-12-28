@@ -1,0 +1,52 @@
+.borderConCenter {
+  border-left: 1px solid #d2d8de;
+  border-right: 1px solid #d2d8de;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+  height: 40px;
+  text-align: start;
+}
+.borderCon {
+  border-left: 1px solid #d2d8de;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  height: 20px;
+  padding: 10px;
+  text-align: start;
+}
+.SuperSpan {
+  color: #405163;
+  font-size: 12px;
+}
+.dispalyDerection {
+  display: flex;
+  align-items: center;
+}
+
+.important {
+  width: 8% !important;
+}
+.inflow {
+  border-right: 1px solid #d2d8de;
+}
+.category {
+  width: 20% !important;
+  min-width: 30% !important;
+}
+.balance {
+  width: 10% !important;
+}
+.data {
+  width: 5% !important;
+}
+.borderNone {
+  border: none;
+  display: flex;
+  justify-content: center;
+}

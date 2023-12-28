@@ -1,0 +1,81 @@
+.bgModal {
+  background-color: #fff;
+  padding: 12px;
+  pointer-events: auto;
+  border-radius: 0.4rem;
+  min-height: 80px;
+  height: fit-content;
+  width: 224px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 16px 64px rgba(0, 0, 0, 0.2);
+  transition: transform 150ms ease, opacity 100ms ease;
+  animation-fill-mode: forwards;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.bgModal:hover {
+  transform: scale(1);
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+.InputStyle {
+  width: 92%;
+}
+.triangle {
+  position: absolute;
+  top: -10px;
+  left: 25%;
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 20.6px solid #fff;
+}
+.buttonCon {
+  display: flex;
+  gap: 14px;
+}
+.message {
+  font-size: 13px;
+  color: red;
+}
+.bgModalEditor {
+  background-color: #fff;
+  padding: 12px;
+  pointer-events: auto;
+  border-radius: 0.4rem;
+  min-height: 80px;
+  height: fit-content;
+  width: 324px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 16px 64px rgba(0, 0, 0, 0.2);
+  transition: transform 150ms ease, opacity 100ms ease;
+  animation-fill-mode: forwards;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.Editor {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+}
+.bgModalTransaction {
+  background-color: white;
+  padding: 12px;
+  opacity: 1;
+  border-radius: 0.4rem;
+  min-height: auto;
+  width: 224px;
+
+  box-shadow: 0 16px 64px rgba(0, 0, 0, 0.2);
+}

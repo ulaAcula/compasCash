@@ -1,0 +1,15 @@
+.colorBut {
+  color: #3b5eda;
+  display: flex;
+
+  gap: 10px;
+}
+.dispalyDerection {
+  display: flex;
+  position: relative;
+}
+.positionModal {
+  position: absolute;
+  left: -56px;
+  top: 50px;
+}

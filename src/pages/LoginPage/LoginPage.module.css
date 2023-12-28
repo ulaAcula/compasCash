@@ -1,0 +1,46 @@
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f2f5;
+  height: 100vh;
+  gap: 20px;
+  width: 100%;
+}
+
+.forma {
+  font-size: 20px;
+  background: white;
+  padding: 40px;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.img {
+  width: 400px;
+}
+.borderT {
+  border-top: 2px solid rgb(207, 207, 207);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: center;
+  padding-top: 10px;
+}
+.description {
+  width: 80%;
+  text-align: center;
+  margin: 0;
+}
+.noRes {
+  font-size: 20px;
+  color: red;
+}
+.logo {
+  width: 100px;
+}

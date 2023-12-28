@@ -1,0 +1,68 @@
+.inputCalculator {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.inputCalculator:hover .HoverNone {
+  opacity: 1;
+}
+
+.HoverNone {
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.InputContainer {
+  background-color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.25rem;
+  height: 1.5rem;
+  text-align: right;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000;
+  justify-content: end;
+  align-items: center;
+  max-width: 120px;
+  padding-left: 8px;
+  min-width: 80px;
+}
+
+.InputContainer:hover {
+  border: 0.0625rem solid #3b5eda;
+}
+.InputContainer:hover .calculator {
+  opacity: 1;
+}
+.MainInput {
+  border: none;
+  text-align: end;
+  width: 100%;
+}
+.MainInput:focus,
+.MainInput:active {
+  border: none;
+  outline: none;
+}
+.InputContainer.focused {
+  border: 0.0625rem solid #3b5eda;
+}
+
+.calculator.focused {
+  opacity: 1;
+}
+
+.calculator {
+  color: #a5adb6;
+  opacity: 0;
+  transition: color 0.3s ease;
+}
+
+.calculator:hover {
+  color: #3b5eda;
+  cursor: pointer;
+}

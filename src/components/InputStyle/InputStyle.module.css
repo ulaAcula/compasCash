@@ -1,0 +1,32 @@
+.halfInput {
+  border: #ccd0d5 solid 1px;
+  padding: 8px;
+  border-radius: 5px;
+}
+.fullInput {
+  border: #ccd0d5 solid 1px;
+  padding: 8px;
+  border-radius: 5px;
+  width: 378px;
+}
+
+.halfInput:focus,
+.halfInput:active {
+  border: 2px solid #3b5eda;
+  outline: none;
+}
+
+.fullInput:focus,
+.fullInput:active {
+  border: 2px solid #3b5eda;
+  outline: none;
+}
+.customerInput {
+  border: none;
+  width: 100%;
+}
+.customerInput:focus,
+.customerInput:active {
+  border: 2px solid #3b5eda;
+  outline: none;
+}

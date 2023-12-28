@@ -1,0 +1,67 @@
+.imgLogo {
+  width: 50px;
+  height: 50px;
+}
+.insideButton {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.insideButtonH1 {
+  line-height: 0%;
+  margin-top: 30px;
+}
+
+.none {
+  display: none;
+}
+.AcoundManager {
+  background-color: transparent;
+  border: #374d9b 1px solid;
+  gap: 20px;
+  color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+}
+.logo {
+  width: 80px;
+}
+.AcoundManager:hover {
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+.arrow {
+  background: none;
+  border: none;
+}
+.nameRoute {
+  color: white;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  text-decoration: none;
+  width: 85%;
+  padding: 10px;
+  border-radius: 6px;
+}
+.nameRoute:hover {
+  background-color: #374d9b;
+}
+.nameRouteSpan {
+  font-size: 20px;
+}
+.navigationMeny {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nameRouteW {
+  width: 40%;
+}

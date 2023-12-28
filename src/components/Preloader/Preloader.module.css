@@ -1,0 +1,43 @@
+.lineOfpercent {
+  display: flex;
+
+  width: 100%;
+  min-width: 312px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+  /* min-width: 450px; */
+  border-radius: 1rem;
+  background-color: #edf1f5;
+  box-shadow: inset 0 0 0 0.0625rem #d2d8de;
+  flex: 1 1 auto;
+  height: 0.25rem;
+  justify-content: flex-start;
+  margin: 0 0.25rem 0 0;
+  overflow: hidden;
+}
+.common {
+  height: 10px;
+  /* width: 100%; */
+}
+.assigned {
+  background: repeating-linear-gradient(
+    135deg,
+    #a2e66e,
+    #a2e66e 5px,
+    #f1fbe9 5px,
+    #f1fbe9 6px
+  );
+}
+.activity {
+  background: repeating-linear-gradient(
+    135deg,
+    #c72c1e,
+    #c72c1e 5px,
+    #fdd7d3 5px,
+    #fdd7d3 6px
+  );
+}
+.availble {
+  background: #67c122;
+}

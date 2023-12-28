@@ -1,0 +1,94 @@
+.AccountRout,
+.AccountCollapsed {
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.AccountCollapsed {
+  height: 0;
+}
+
+.transparentWhite {
+  display: flex;
+  gap: 10px;
+  background-color: #374d9b8e;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.transparentWhite:hover {
+  background-color: #374d9b;
+}
+.DownClose {
+  transition: 2s;
+  background-color: #2c396a;
+}
+
+.DownOpen {
+  width: 0px;
+  opacity: 0;
+  overflow: hidden;
+  display: flex;
+}
+.modalCreateAcc {
+  font-size: 14px;
+}
+.inputWidth {
+  width: 100%;
+}
+.examination {
+  width: 290px;
+}
+.linerBottom {
+  position: absolute;
+  left: 0;
+  width: 360px;
+}
+#dropMake6 {
+  width: 100%;
+}
+.discriptionGray {
+  color: #405163;
+  font-size: 14px;
+  margin: 0;
+}
+
+.category16font {
+  margin: 0;
+  font-size: 16px;
+}
+.categoryFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#overflov {
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.bouncingIcon {
+  animation: bounce 1s infinite;
+}
+.Margin {
+  margin: 10px;
+}

@@ -1,0 +1,32 @@
+.Amountcontainer {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  background-color: #fff;
+  flex: none;
+
+}
+.cashComponent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: self-start;
+}
+.cash {
+  margin: 0;
+  font-size: 18px;
+  color: #4d9119;
+}
+.descript {
+  font-size: 12px;
+  color: #405163;
+}
+.gapMiniCont {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.widthIcon {
+  font-size: 12px;
+}

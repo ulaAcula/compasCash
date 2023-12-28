@@ -1,0 +1,11 @@
+/* PieChart.module.css */
+
+.chartContainer {
+  display: flex;
+  flex-direction: column-reverse; /* Изменяем направление главной оси на обратное */
+}
+
+.chart {
+  height: 300px;
+  width: 100%;
+}
